@@ -56,6 +56,8 @@
 width: 40%;
 flex-wrap: wrap;
 display: block;
+text-align: center;
+right: 255px;
 }
 #hero-image img{
     height: 80vh;
@@ -66,7 +68,7 @@ display: block;
 }
 #text{
     position: relative;
-    bottom: -450px;
+    top: 100px;
     font-size: 40px;
     text-align: center;
     color: white;
@@ -74,9 +76,12 @@ display: block;
    }
    #text2{
     position: relative;
-bottom: -350px;
+top: 150px;
 color: white;
-font-size: 30px;
+font-size: 25px;
+text-align: center;
+width: 60%;
+left: 255px;
 
 }
 #Explored-button{
@@ -88,16 +93,24 @@ font-size: 30px;
     border-radius: 50px;
     gap: 10px;
     font-size: 24px;
+left: 555px;
+    width: 200px;
+    height: 60px;
 }
-
 .book-price{
     max-width: 1250px;
     width: 100%;
+    margin: 500px auto;
+    margin-bottom: -250px ;
+
+}
+.dis{
+  margin-top: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-flex-wrap: wrap;
-margin: -300px auto;
+flex-wrap: wrap
+   ;
 }
 .book-price .Box1{
     text-align: center;
@@ -516,8 +529,8 @@ margin-bottom: 20px;
     
     #logo-navbar-icon-section{
         display: flex;
-        width: 100%;
-        justify-content: space-evenly;
+        width: 80%;
+        justify-content: space-evenly-9;
         gap: 25px;
         margin: 12px auto;
     }
@@ -571,6 +584,8 @@ margin-bottom: 20px;
     font-size: 20px;
     text-align: center;
     color: white;
+    left: 40px;
+    width: 80%;
 
    }
 
@@ -586,7 +601,7 @@ margin-bottom: 20px;
     gap: 10px;
     font-size: 24px;
     text-align: center;
-    right: -80px;
+    left: 80px;
 }
 
 .new-collection{
@@ -626,42 +641,44 @@ margin-bottom: 20px;
     font-size: 20px;
 }
 
+
 .book-price .Box1 img{
-    width: 150%;
+    width: 130%;
     height: 200px;
 }
+
 .book-price .Box2 img{
-    width: 150%;
+    width: 130%;
     height: 200px;
 
 }
 .book-price .Box3 img{
-    width: 150%;
+    width: 130%;
     height: 200px;
 
 }
 .book-price .Box4 img{
-    width: 150%;
+    width: 130%;
     height: 200px;
 
 }
 .book-price .Box5 img{
-    width: 150%;
+    width: 130%;
     height: 200px;
 
 }
 .book-price .Box6 img{
-    width: 150%;
+    width: 130%;
     height: 200px;
 
 }
 .book-price .Box7 img{
-    width: 150%;
+    width: 130%;
     height: 200px;
 
 }
 .book-price .Box8 img{
-    width: 150%;
+    width: 130%;
     height: 200px;
 
 }
